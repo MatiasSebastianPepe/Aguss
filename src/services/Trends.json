@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Blog writng",
+    "text": "Generate the best blog post to fit your audience with just few clicks of a button.",
+    "icon": "src/assets/icons/Edit.svg",
+    "trend": "src/assets/icons/Arrow Trending.svg"
+  },
+  {
+    "title": "Product description",
+    "text": "Instantly generate engaging product descriptions that sell.",
+    "icon": "src/assets/icons/basil_edit-outline.svg",
+    "trend": "src/assets/icons/Arrow Trending.svg"
+  },
+  {
+    "title": "Article writer",
+    "text": "Automatically create unique factual articles at the touch of a button.",
+    "icon": "src/assets/icons/Text Bullet List Square Edit.svg",
+    "trend": "src/assets/icons/Arrow Trending.svg"
+  },
+  {
+    "title": "Blog writng",
+    "text": "Generate the best blog post to fit your audience with just few clicks of a button.",
+    "icon": "src/assets/icons/Edit.svg",
+    "trend": "src/assets/icons/Arrow Trending.svg"
+  }
+]

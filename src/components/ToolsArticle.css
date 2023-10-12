@@ -1,0 +1,75 @@
+.container{
+  max-width: 100%;
+  background: var(--retink-colour-style-retink-grey-retink-grey-0, #FFF);
+  box-shadow: 0px 7px 20px 0px rgba(53, 35, 104, 0.10);
+}
+
+.toolsContainer{
+  max-width: 100%;
+  padding-left: 2rem!important;
+}
+
+.cardClass:hover {
+  cursor: pointer;
+  box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+h1,h2,h3,h4{
+  text-align: start;
+  font-family: Raleway;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h4{
+  color: var(--retink-colour-style-retink-blue-grey-blue-600, #9893A3)!important;
+
+  font-family: Raleway;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cardsContainer{
+  border-radius: 1.25rem!important;
+  background: var(--retink-colour-style-retink-grey-retink-grey-0, #F4F3F6)!important;
+  box-shadow: 0px 7px 20px 0px rgba(53, 35, 104, 0.10)!important;
+}
+
+.cardsContainer h4{
+  color: black!important;
+}
+
+
+.icons{
+  border: none!important;
+}
+
+.cardTitle{
+  text-align: start;
+  font-family: Raleway;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cardText{
+  color: var(--retink-colour-style-retink-blue-grey-blue-700, #77737F);
+  text-align: start;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  .toolsContainer{
+    padding-right: 3rem!important;
+  }
+}

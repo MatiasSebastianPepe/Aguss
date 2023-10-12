@@ -1,0 +1,60 @@
+.bell-icon {
+  animation: ring 2s infinite;
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
+#notificationBar {
+  background: var(--retink-colour-style-retink-primary-purple-light, #F1EDFD) !important;
+  height: 5rem;
+  box-shadow: none;
+}
+
+.profilePictureDesktop{
+  height: 4.25rem!important;
+  color: #463D61 !important;
+  font-weight: 700;
+  border-radius: 1.25rem !important;
+  background: var(--retink-colour-style-retink-primary-purple-light, #F1EDFD) !important;
+  box-shadow: 0px 7px 20px 0px #fff;
+  border: 2px solid var(--retink-colour-style-retink-primary-purple-light, #F1EDFD) !important;
+}
+
+.notificationBar {
+  border: 1px solid var(--retink-colour-style-retink-primary-purple-light-active, #D4C8F8) !important;
+  background: var(--retink-colour-style-retink-primary-purple-light, #F1EDFD) !important;
+  box-shadow: none;
+  height: 5rem;
+  box-shadow: 0px -1px 0px 0px rgba(213, 209, 224, 0.40) inset !important;
+}
+
+.notificationBarDesktop {
+  box-shadow: 0px -1px 0px 0px rgba(213, 209, 224, 0.40) inset !important;
+  height: 5rem;
+}
+
+.notificationButton {
+  color: #463D61 !important;
+  font-weight: 700;
+  border-radius: 1.25rem !important;
+  background: var(--retink-colour-style-retink-primary-purple-light, #F1EDFD) !important;
+  ;
+  box-shadow: 0px 7px 20px 0px #fff;
+  border: 2px solid var(--retink-colour-style-retink-primary-purple-light, #F1EDFD) !important;
+  ;
+}

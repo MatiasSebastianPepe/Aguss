@@ -1,0 +1,33 @@
+.sideBarButton{
+  border-radius: 0.625rem!important;
+  width: 4.75rem;
+  height: 4.75rem;
+  border-radius: 1.25rem !important;
+  border: 2px solid var(--retink-colour-style-retink-primary-purple-light, #F1EDFD)!important;
+  background: var(--retink-colour-style-retink-primary-purple-light, #F1EDFD)!important;;
+}
+
+.logo{
+  width: 4.75rem;
+  height: 4.75rem;
+  border: 2px solid var(--retink-colour-style-retink-primary-purple-light, #F1EDFD)!important;
+  background: var(--retink-colour-style-retink-primary-purple-light, #F1EDFD)!important;;
+}
+
+.sideBarHome:hover{
+  
+}
+
+.sideBarHome:hover{
+
+}
+
+
+/**
+* Mobile
+*/
+@media (max-width: 576px) {
+  .sideBarContainer{
+    visibility: hidden;
+  } 
+}
